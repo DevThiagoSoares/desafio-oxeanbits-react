@@ -43,4 +43,17 @@ Acesse o projeto em seu navegador em http://localhost:3000.
 
 Configuração de Variáveis de Ambiente
 
-## Este projeto requer a configuração da variável de ambiente REACT_APP_GIPHY_API_KEY contendo a API Key fornecida pelo GIPHY para acessar a sua API de forma segura.
+#### Este projeto requer a configuração da variável de ambiente REACT_APP_GIPHY_API_KEY contendo a API Key fornecida pelo GIPHY para acessar a sua API de forma segura.
+
+## Credenciais de login
+
+bash
+```bash
+email: seu@email.com
+senha: suaSenha
+```
+
+
+## Acesso na VERCEL
+
+https://desafio-oxeanbits-react.vercel.app/
