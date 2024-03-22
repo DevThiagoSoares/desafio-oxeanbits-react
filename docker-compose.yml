@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  desafio-oxeanbits:
+    image: desafio-oxeanbits:latest
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: desafio-oxeanbits
+    network_mode: bridge
+    restart: always
+    ports:
+      - ${PROJECT_PORT}:80
+    volumes:
+      - "./logs:/var/log/nginx"
+    env_file:
+      - .env
